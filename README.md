@@ -1,6 +1,5 @@
-# laravel5.5-CRUD
-Basic CRUD with resource controller in Laravel 5.5
-
+# Laravel-CRUD-Demo
+Basic CRUD with resource controller in Laravel 5.5.
 ## Description
 
 Implement a basic create, read, update and delete on the user model prefilled with 200 sample records.
@@ -20,19 +19,13 @@ Implement a basic create, read, update and delete on the user model prefilled wi
 * Clone this repository and setup a sample database in .env file
 * Run:
 
-```
+```bash
 composer install
-```
-```
 npm install
-```
-
-```
 php artisan migrate
-```
-```
 php artisan db:seed
 ```
+You can see this working in this live [http://crud.antonioramirez.co] (https://crud.antonioramirez.co "Crud Demo"), but take into consideration that user creation and updated has been disabled.
 
 
 

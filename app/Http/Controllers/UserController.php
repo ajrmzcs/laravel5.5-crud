@@ -52,16 +52,16 @@ class UserController extends Controller
 
         // Store in DB
 
-        $user = User::create([
-            'name' => $request->name,
-            'email' => $request->email,
-            'address' => $request->address,
-            'password' => $request->password,
-        ]);
+//        $user = User::create([
+//            'name' => $request->name,
+//            'email' => $request->email,
+//            'address' => $request->address,
+//            'password' => $request->password,
+//        ]);
 
-        if ($user) {
-            return redirect('/')->with('status','New user created!!');
-        }
+//        if ($user) {
+            return redirect('/')->with('status','User creation is disabled in this demo!!');
+//        }
 
     }
 
@@ -115,18 +115,18 @@ class UserController extends Controller
             'password' => 'required'
         ]);
 
-        $user = User::find($id);
+//        $user = User::find($id);
+//
+//        $user->name = $request->name;
+//        $user->email = $request->email;
+//        $user->address = $request->address;
+//        $user->password = $request->password;
+//
+//        $user->save();
 
-        $user->name = $request->name;
-        $user->email = $request->email;
-        $user->address = $request->address;
-        $user->password = $request->password;
-
-        $user->save();
-
-        if ($user) {
-            return redirect('/')->with('status','User edited!!');
-        }
+//        if ($user) {
+            return redirect('/')->with('status','User edition is disabled in this demo!!');
+//        }
 
 
     }
