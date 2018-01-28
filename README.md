@@ -25,7 +25,7 @@ npm install
 php artisan migrate
 php artisan db:seed
 ```
-You can see this working in this live [demo](http://crud.antonioramirez.co "Crud Demo"), but take into consideration that user creation and updated has been disabled.
+You can see this working in this live [demo](http://crud.antonioramirez.co "Crud Demo"), but take into consideration that user creation and update has been disabled.
 
 
 
